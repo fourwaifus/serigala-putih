@@ -1,0 +1,52 @@
+*,
+html,
+body {
+	padding: 0px; margin: 0px; box-sizing: border-box; text-decoration: none;
+}
+
+.container {
+	width: 500px;
+	margin: auto;
+	display: flex;
+
+}
+.mb {
+	padding: 2px 15px 2px 15px;
+}
+.btn {
+	border: 2px solid black;
+	border-radius: 2px;
+	background-color: grey;
+	color: white;
+}
+.btn:hover {
+	background-color: greenyellow;
+	color: black;
+}
+.mt {
+	margin-top: 15px;
+}
+.p {
+	padding: 25px;
+}
+
+.bor {
+	border: 1px solid black;
+}
+
+
+.center {
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.logo {
+
+	width: 80px;
+	border: 1px solid black;
+	border-radius: 120px;
+
+}
